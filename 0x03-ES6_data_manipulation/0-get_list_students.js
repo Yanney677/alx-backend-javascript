@@ -1,4 +1,7 @@
-/* A function that returns an array of objects */
+/**
+ * Retrieves a list of students.
+ * @returns {{id: Number, firstName: String, location: String}[]}
+ */
 export default function getListStudents() {
   return [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
