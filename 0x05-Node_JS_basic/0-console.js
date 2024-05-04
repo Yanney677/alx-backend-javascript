@@ -1,3 +1,9 @@
-const displayMessage = (str) => console.log(str);
+/**
+ * Prints a string to the standard output
+ * @param {String}
+ */
+function displayMessage(message) {
+  console.log(message);
+}
 
 module.exports = displayMessage;
